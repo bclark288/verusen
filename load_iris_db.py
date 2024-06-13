@@ -1,6 +1,8 @@
 import sqlite3
 import pandas as pd
 
+# Code to load 
+
 con = sqlite3.connect('./database.sqlite')
 cur = con.cursor()
 df = pd.read_csv('./Iris.csv')
